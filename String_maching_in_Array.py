@@ -8,8 +8,8 @@ class Solution(object):
 
         for i in range(len(words)):
             for j in range(len(words)):
-                if i != j and words[i] in words[j]:  # Ensuring i and j are different
-                    result.append(words[i])  # Add to set instead of list
-                    break  # No need to check further if already found
+                if i != j and words[i] in words[j]:  
+                    result.append(words[i])  
+                    break  
 
         return result  # Convert set to list before returning
