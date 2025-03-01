@@ -9,7 +9,7 @@ class Solution(object):
 
         x = sorted(nums3)
 
-        #print(len(x))
+        print(len(x))
         mid = len(x)//2
         if len(x)%2 == 0:
             return (x[mid] + x[mid-1])/2.0
