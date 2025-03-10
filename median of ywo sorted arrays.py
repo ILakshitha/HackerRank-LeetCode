@@ -14,5 +14,4 @@ class Solution(object):
         if len(x)%2 == 0:
             return (x[mid] + x[mid-1])/2.0
         else:
-
             return x[mid]
